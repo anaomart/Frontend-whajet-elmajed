@@ -1,0 +1,31 @@
+.display-content {
+    font-size: 1rem;
+    /* Base font size */
+    line-height: 1.5;
+    /* Base line height */
+    padding: 20px;
+    /* Base padding */
+}
+
+.rtl .ql-editor {
+    direction: rtl;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .display-content {
+        font-size: 0.875rem;
+        /* Smaller font size for tablets */
+        padding: 15px;
+        /* Smaller padding for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .display-content {
+        font-size: 0.75rem;
+        /* Smaller font size for mobile devices */
+        padding: 10px;
+        /* Smaller padding for mobile devices */
+    }
+}
